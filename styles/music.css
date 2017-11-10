@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #AF4035;
+  color: #fff;
+    max-width: 900px;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Slabo 13px', Garamond, serif;
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+p, footer {
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+}
+
+#click {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+#caption {
+  padding-left: 20px;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+}
+
+
+#bobnobel {
+  padding:20px;
+  max-width: 100%;
+}
+
+.albumcover {
+  padding:10px;
+}
+
+#container {
+  margin: 2% auto;
+  padding: 20px;
+}
+
+@media(max-width: 750px) {
+body { margin: 0;}
+#bobnobel {padding:0;}
+h1, footer, #container, #caption {padding-left:10px;}
+}
